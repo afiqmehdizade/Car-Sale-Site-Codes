@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AspFinalProje.ViewModels.ForLayout
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--/ Intro Single star /-->
+<section style="padding: 5rem 0 3rem;" class="intro-single"></section>
+<!--/ Intro Single End /-->
+<!--/ Agent Single Star /-->
+<section class="agent-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pt-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="agent-avatar-box">
+                            <img src="~/Images/@Model.vmnew.Image" alt="" class="agent-avatar img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-5 section-md-t3">
+                        <div class="agent-info-box">
+                            <div class="agent-title">
+                                <div class="title-box-d">
+                                    <h3 class="title-d">
+                                        @Model.vmnew.Title
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="agent-content mb-3">
+
+                                <div class="info-agents color-a">
+
+                                    <p class="content-d color-text-a">
+                                        @Model.vmnew.Content
+                                    </p>
+                                    <p class="content-d color-text-a">
+                                        @Model.vmnew.CreatedAt.ToString("MMMM dd , yyyy")
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 section-t8">
+                <div class="title-box-d">
+                    <h3 class="title-d">Digər Xəbərlər</h3>
+                </div>
+            </div>
+            <div class="row property-grid grid">
+                @foreach (var item in Model.news)
+                {
+                    <div class="col-md-4">
+                        <div class="card-box-a card-shadow">
+                            <div class="img-box-a">
+                                <img src="~/Images/@item.Image" alt="" class="img-a img-fluid">
+                            </div>
+                            <div class="card-overlay">
+                                <div class="card-overlay-a-content">
+                                    <div class="card-header-a">
+                                       
+                                    </div>
+                                    <div class="card-body-a">
+                                        <div class="price-box d-flex">
+                                            <span style="" class="price-a"> @item.Title</span>
+                                        </div>
+                                        <a href="@Url.Action("Index","New",new { id = item.Id })" class="link-a">
+                                            Daha Ətraflı
+                                            <span class="ion-ios-arrow-forward"></span>
+                                        </a>
+                                    </div>
+                                    <div class="card-footer-a">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 }
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Agent Single End /-->

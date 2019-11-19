@@ -1,0 +1,14 @@
+﻿@model AspFinalProje.ViewModels.ForLayout
+<div class="w-body-a slbar">
+    <h3>Xəbərlər</h3>
+    <ul class="list-unstyled">
+        @foreach (var item in Model.news)
+        {
+            <li class="item-list-a">
+                <i class="fa fa-angle-right"></i> <a href="@Url.Action("Index","New",new { id = item.Id })">@item.Title</a>
+            </li>
+        }
+
+
+    </ul>
+</div>

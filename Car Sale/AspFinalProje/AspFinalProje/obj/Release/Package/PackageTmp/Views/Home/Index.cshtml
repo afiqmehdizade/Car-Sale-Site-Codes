@@ -1,0 +1,223 @@
+﻿@model AspFinalProje.ViewModels.ForLayout
+
+<section style="padding: 4.5rem 0 3rem;" class="intro-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Intro Single End /-->
+<!--/ Property Grid Star /-->
+<section class="property-grid grid">
+    @Html.Partial("_NewsPartial", Model);
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="grid-option row justify-content-between">
+
+                    <a class="btn btn-success ml-3" href="/User/Create"><i class="fas fa-plus"></i> Elan Yerləşdir</a>
+
+                    <form>
+                    <select class="custom-select markalist">
+                    <option selected>Bütün Maşınlar</option>
+                    @foreach (var item in Model.markas)
+                    {
+                        <option value="@item.Id">@item.MarkaName</option>
+
+                    }
+                    </select>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row loadcars">
+                    @foreach (var item in Model.adverts)
+                    {
+                        if (item.IsVip == false)
+                        {
+                            <div class="col-md-4">
+                                <div class="card-box-a card-shadow">
+                                    <div class="img-box-a">
+                                        <img src="~/Images/@item.Avtomobil.Image" alt="" class="img-a img-fluid ">
+                                    </div>
+                                    <div class="card-overlay">
+                                        <div class="card-overlay-a-content">
+                                            <div class="card-header-a">
+                                                <h2 class="card-title-a">
+                                                    <span>
+                                                        @item.Avtomobil.Model.Marka.MarkaName
+                                                    </span>
+                                                    <span>
+                                                        @item.Avtomobil.Model.ModelName
+
+                                                    </span>
+
+                                                </h2>
+                                            </div>
+                                            <div class="card-body-a">
+                                                <div class="price-box d-flex">
+                                                    <span class="price-a">Qiymət | $ @item.Avtomobil.Price</span>
+                                                </div>
+                                                <a href="@Url.Action("Detail","Car",new { id = item.Id })" class="link-a">
+                                                    Daha Ətraflı
+                                                    <span class="ion-ios-arrow-forward"></span>
+                                                </a>
+
+                                            </div>
+                                            <div class="card-footer-a">
+                                                <ul class="card-info d-flex justify-content-around">
+                                                    <li>
+                                                        <h4 class="card-info-title">Rəng</h4>
+                                                        <span>
+                                                            @item.Avtomobil.Color
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <h4 class="card-info-title">Motor</h4>
+                                                        <span>@item.Avtomobil.EngineCapacity </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <h4 class="card-info-title">İli</h4>
+                                                        <span>@item.Avtomobil.MadeYear</span>
+                                                    </li>
+                                                    <li>
+                                                        <h4 class="card-info-title">Km</h4>
+                                                        <span>@item.Avtomobil.KiloMetre</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-md-4">
+                                <div class="card-box-a card-shadow">
+                                    <div class="img-box-a">
+                                        <img src="~/Images/@item.Avtomobil.Image" alt="" class="img-a img-fluid">
+                                    </div>
+                                    <div class="card-overlay">
+                                        <div class="card-overlay-a-content">
+                                            <div class="card-header-a">
+                                                <h2 class="card-title-a">
+                                                    <span>
+                                                        @item.Avtomobil.Model.Marka.MarkaName
+                                                    </span>
+                                                    <span>
+                                                        @item.Avtomobil.Model.ModelName <sup style="color:gold;font-size:25px;"><i class="fas fa-crown"></i></sup>
+                                                    </span>
+
+                                                </h2>
+                                            </div>
+                                            <div class="card-body-a">
+                                                <div class="price-box d-flex">
+                                                    <span style="" class="price-a">Qiymət | $ @item.Avtomobil.Price</span>
+                                                </div>
+                                                <a href="@Url.Action("Detail","Car",new { id = item.Id })" class="link-a">
+                                                    Daha Ətraflı
+                                                    <span class="ion-ios-arrow-forward"></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-footer-a">
+                                                <ul class="card-info d-flex justify-content-around">
+                                                    <li>
+                                                        <h4 class="card-info-title">Rəng</h4>
+                                                        <span>
+                                                            @item.Avtomobil.Color
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <h4 class="card-info-title">Motor</h4>
+                                                        <span>@item.Avtomobil.EngineCapacity </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <h4 class="card-info-title">İli</h4>
+                                                        <span>@item.Avtomobil.MadeYear</span>
+                                                    </li>
+                                                    <li>
+                                                        <h4 class="card-info-title">Km</h4>
+                                                        <span>@item.Avtomobil.KiloMetre</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 section-md-t3">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Bütün Markalar</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <div class="w-body-a">
+                                <ul class="list-unstyled">
+                                    @foreach (var item in Model.markas)
+                                    {
+                                        <li class="item-list-a">
+                                            <i class="fa fa-angle-right"></i> <a href="#">@item.MarkaName</a>
+                                        </li>
+                                    }
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 section-md-t3">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Elan Sayları</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <ul class="list-unstyled">
+                                @foreach (var item in Model.markas)
+                                {
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">@Model.adverts.Where(m => m.Avtomobil.Model.MarkaId == item.Id).Count() </a>
+                                    </li>
+                                }
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script>
+        $(function () {
+            $(".markalist").on("change", function () {
+                var id = $(this).val();
+                if (id) {
+                    $.ajax({
+                        url: "/AJAX/LoadCars",
+                        data: { id: id },
+                        type: "GET",
+                        success: function (res) {
+                            $(".loadcars").html(res)
+                        }
+                    })
+                }
+               
+            })
+        })
+
+    </script>
+}

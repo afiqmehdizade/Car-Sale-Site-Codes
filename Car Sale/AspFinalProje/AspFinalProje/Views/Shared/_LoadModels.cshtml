@@ -1,0 +1,7 @@
+﻿@model IEnumerable<AspFinalProje.Models.Model>
+<option value="">Modeli Secin</option>
+
+@foreach (var item in Model)
+{
+    <option value="@item.Id">@item.ModelName</option>
+}

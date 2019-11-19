@@ -1,0 +1,148 @@
+﻿@using AspFinalProje.Models
+
+@model AspFinalProje.Models.Advert
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--/ Intro Single star /-->
+<section style="padding: 5rem 0 3rem;" class="intro-single"></section>
+<!--/ Intro Single End /-->
+<!--/ Agent Single Star /-->
+<section class="agent-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pt-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="agent-avatar-box">
+                            <img src="~/Images/@Model.Avtomobil.Image" alt="" class="agent-avatar img-fluid">
+                        </div>
+                        <a title="Deyisdir" class="btn btn-warning mt-1 " href="@Url.Action("Edit","User",new { id = Model.AvtomobilId})"><i class="fas fa-edit"></i></a>
+                        <a data-toggle="modal" data-target="#exampleModalCenter" title="Sil" class="btn btn-danger mt-1 ml-2 " href="@Url.Action("Delete","User",new { id = Model.Id})"><i class="fas fa-trash"></i></a>
+
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">  <span style="color:red">@Model.Avtomobil.Model.Marka.MarkaName</span> Markalı avtomobili silmək istəyirsiniz?</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        "Bu elanı silsəniz bir daha bərpa edə bilməyəcəksiniz"
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Imtina</button>
+                                        <button type="button" id="deladv" data-id="@Model.Id" class="btn btn-danger">Sil</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 section-md-t3">
+                        <div class="agent-info-box">
+                            <div class="agent-title">
+                                <div class="title-box-d">
+                                    <h3 class="title-d">
+                                        @Model.Avtomobil.Model.Marka.MarkaName  @Model.Avtomobil.Model.ModelName
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="agent-content mb-3">
+
+                                <div class="info-agents color-a">
+                                    <p>
+                                        <strong>Qiymət: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.Price </span>
+                                    </p>
+                                    <p>
+                                        <strong>Yürüş: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.KiloMetre</span>
+                                    </p>
+                                    <p>
+                                        <strong>Ötürücü: </strong>
+                                        @if (Model.Avtomobil.TransMission == true)
+                                        {
+                                            <span>Mexanik</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Avtomat</span>
+                                        }
+                                    </p>
+                                    <p>
+                                        <strong>Istehsal ili: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.MadeYear</span>
+                                    </p>
+                                    <p>
+                                        <strong>Yanacaq Növü: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.Oil.YanacaqAdi</span>
+                                    </p>
+                                    <p>
+                                        <strong>Motoru: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.EngineCapacity</span>
+                                    </p>
+                                    <p>
+                                        <strong>Rəng: </strong>
+                                        <span class="color-text-a"> @Model.Avtomobil.Color</span>
+                                    </p>
+                                    <p>
+                                        <strong>Sahibi: </strong>
+                                        <span class="color-text-a"> @Model.User.Firstname @Model.User.Lastname</span>
+                                    </p>
+                                    <p>
+                                        <strong>Əlaqə : </strong>
+                                        <span class="color-text-a"> @Model.User.Phone</span>
+                                    </p>
+                                    <p class="content-d color-text-a">
+                                        @Model.Avtomobil.Context
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--/ Agent Single End /-->
+@section scripts{
+    <script>
+        $(function () {
+
+            $("#deladv").on("click", function () {
+
+                var deladvid = $(this).attr("data-id")
+
+                if (deladvid) {
+
+                    $.ajax({
+
+                        url:"/AJAX/DeletePost",
+                        data: {id : deladvid },
+                        type:"GET",
+                        success: function (res) {
+
+                            if (res.status === 200) {
+                                alert("Elan Uğurla Silindi")
+                                window.location.href = res.data
+                            }
+                            else {
+                                window.location.href = res.data
+
+                            }
+
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+}

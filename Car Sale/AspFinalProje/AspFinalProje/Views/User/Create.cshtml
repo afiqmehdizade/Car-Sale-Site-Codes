@@ -1,0 +1,135 @@
+﻿@model AspFinalProje.Models.Avtomobil
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Registration :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="~/Areas/Admin/Public/css/bootstrap.min.css">
+    <!-- //bootstrap-css -->
+    <!-- Custom CSS -->
+    <link href="~/Areas/Admin/Public/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="~/Areas/Admin/Public/css/style-responsive.css" rel="stylesheet" />
+    <!-- font CSS -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="~/Areas/Admin/Public/css/font.css" type="text/css" />
+    <link href="~/Areas/Admin/Public/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <script src="~/Areas/Admin/Public/js/jquery2.0.3.min.js"></script>
+</head>
+<body>
+    <div class="reg-w3">
+        <div class="w3layouts-main">
+            <h2>Yeni Elan</h2>
+            <form method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Color, new { @class = "ggg", placeholder = "Reng" })
+                    @Html.ValidationMessageFor(m => m.Color, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Price, new { @class = "ggg", type = "number", placeholder = "Qiymet" })
+                    @Html.ValidationMessageFor(m => m.Price, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.EngineCapacity, new { @class = "ggg", type = "number", placeholder = "Motoru" })
+                    @Html.ValidationMessageFor(m => m.EngineCapacity, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.MadeYear, new { @class = "ggg", type = "number", placeholder = "Istehsal Ili" })
+                    @Html.ValidationMessageFor(m => m.MadeYear, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.KiloMetre, new { @class = "ggg", type = "number", placeholder = "Gedis (KM)" })
+                    @Html.ValidationMessageFor(m => m.KiloMetre, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Context, new { @class = "text-warning" })
+                    @Html.TextAreaFor(m => m.Context, new { @class = "form-control", type = "text", placeholder = "Melumat", rows = 7 })
+                    @Html.ValidationMessageFor(m => m.Context, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Photo, new { @class = "text-warning" })
+                    @Html.TextBoxFor(m => m.Photo, new { @class = "ggg", type = "file", accept = "image/*", placeholder = "Shekli" })
+                    @Html.ValidationMessageFor(m => m.Photo, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.OilId, "Yanacaq", new { @class = "text-warning" })
+                    @Html.DropDownList("OilId", (IEnumerable<SelectListItem>)ViewBag.Oils, "Yanacaqi Secin", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.OilId, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("Şəhər", new { @class = "text-warning" })
+                    @Html.DropDownList("sitild", (IEnumerable<SelectListItem>)ViewBag.Cities, "Şəhəri Secin", new { @class = "form-control" })
+                    @Html.ValidationMessage("errorCity", null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("Marka", new { @class = "text-warning" })
+                    @Html.DropDownList("Marka", (IEnumerable<SelectListItem>)ViewBag.Markas, "Markani Secin", new { @class = "form-control dmmark" })
+                    @Html.ValidationMessage("errorMarka", null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("ModelId", new { @class = "text-warning" })
+                    <select class="form-control dmodel" name="ModelId">
+                        <option value="">Modeli Secin</option>
+                    </select>
+                    @Html.ValidationMessageFor(m => m.ModelId, null, new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("Ötürücü", new { @class = "text-warning" })
+                    @Html.DropDownListFor(model => model.TransMission, new List<SelectListItem>
+                     { new SelectListItem{Text="Mexanika", Value="True"},
+                     new SelectListItem{Text="Avtomat", Value="False"}},"Oturucunu Secin", new { @class = "form-control"})
+                    @Html.ValidationMessageFor(m => m.TransMission, null, new { @class = "text-danger" })
+                </div>
+
+
+
+                <input type="submit" value="Göndər" name="register">
+                <a style="margin-left:145px;" href="/Home/Index" class="btn btn-success btn-lg ">Ləğv et</a>
+
+            </form>
+        </div>
+    </div>
+        <script>
+            $(function () {
+                $(".dmmark").on("change", function () {
+
+                    var id = $(this).val();
+                    $.ajax({
+                        url: "/AJAX/LoadModels",
+                        data: { id: id },
+                        type: "GET",
+                        success: function (res) {
+                            $(".dmodel").html(res)
+                        }
+                    })
+                })
+            })
+        </script>
+    
+    <script src="~/Areas/Admin/Public/js/bootstrap.js"></script>
+    <script src="~/Areas/Admin/Public/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="~/Areas/Admin/Public/js/scripts.js"></script>
+    <script src="~/Areas/Admin/Public/js/jquery.slimscroll.js"></script>
+    <script src="~/Areas/Admin/Public/js/jquery.nicescroll.js"></script>
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="~/Areas/Admin/Public/js/flot-chart/excanvas.min.js"></script><![endif]-->
+    <script src="~/Areas/Admin/Public/js/jquery.scrollTo.js"></script>
+</body>
+</html>
+
+@Scripts.Render("~/bundles/jqueryval")
+
+

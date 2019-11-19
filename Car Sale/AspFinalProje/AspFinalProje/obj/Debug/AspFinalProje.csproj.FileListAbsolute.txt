@@ -1,0 +1,258 @@
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll.config
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.pdb
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe.config
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.rsp
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe.config
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.rsp
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.AppContext.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Console.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Claims.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe.config
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.rsp
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\WebGrease.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.pdb
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csprojAssemblyReference.cache
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CoreCompileInputs.cache
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CopyComplete
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.dll
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.pdb
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.Migrations.InitialCreate.resources
+C:\Users\Flex Decoder\Desktop\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.GenerateResource.cache
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll.config
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.pdb
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe.config
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.rsp
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe.config
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.rsp
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.AppContext.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Console.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Claims.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe.config
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.rsp
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\WebGrease.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.pdb
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csprojAssemblyReference.cache
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.Migrations.InitialCreate.resources
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.GenerateResource.cache
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CoreCompileInputs.cache
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CopyComplete
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.dll
+C:\Users\Flex Decoder\Desktop\Yeni klasör (2)\p109-asp-final-afiqmehdizade\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.pdb
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll.config
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\AspFinalProje.pdb
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.exe.config
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csc.rsp
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.exe.config
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\csi.rsp
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.AppContext.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Collections.Immutable.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Console.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Compression.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.IO.Pipes.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.AccessControl.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Claims.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.ValueTuple.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.exe.config
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\vbc.rsp
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\roslyn\VBCSCompiler.exe.config
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.Web.Infrastructure.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\WebGrease.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\EntityFramework.SqlServer.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Helpers.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Mvc.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Optimization.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.Razor.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Deployment.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Web.WebPages.Razor.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Newtonsoft.Json.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Antlr3.Runtime.pdb
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csprojAssemblyReference.cache
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.Migrations.InitialCreate.resources
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.GenerateResource.cache
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CoreCompileInputs.cache
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.csproj.CopyComplete
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.dll
+D:\Dev\AspFinal\AspFinalProje\AspFinalProje\obj\Debug\AspFinalProje.pdb

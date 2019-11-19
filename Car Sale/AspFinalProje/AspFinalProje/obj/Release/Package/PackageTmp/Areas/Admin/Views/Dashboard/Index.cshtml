@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+ 
+@{var admin = Session["admin"] as AspFinalProje.Models.AdminSetting;}
+
+<h2>Xoş Gəlmisiniz @admin.Firstname @admin.Lastname</h2>
+

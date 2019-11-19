@@ -1,0 +1,157 @@
+﻿@model AspFinalProje.ViewModels.ForLayout
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using AspFinalProje.Models
+<!--/ Intro Single star /-->
+<section style="padding: 5rem 0 3rem;" class="intro-single"></section>
+<!--/ Intro Single End /-->
+<!--/ Agent Single Star /-->
+<section class="agent-single">
+    @Html.Partial("_NewsPartial", Model);
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pt-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="agent-avatar-box">
+                            <img src="~/Images/@Model.vmadvert.Avtomobil.Image" alt="" class="agent-avatar img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-5 section-md-t3">
+                        <div class="agent-info-box">
+                            <div class="agent-title">
+                                <div class="title-box-d">
+                                    <h3 class="title-d">
+                                        @Model.vmadvert.Avtomobil.Model.Marka.MarkaName  @Model.vmadvert.Avtomobil.Model.ModelName
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="agent-content mb-3">
+
+                                <div class="info-agents color-a">
+                                    <p>
+                                        <strong>Qiymət: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.Price AZN</span>
+                                    </p>
+                                    <p>
+                                        <strong>Yürüş: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.KiloMetre km</span>
+                                    </p>
+                                    <p>
+                                        <strong>Ötürücü: </strong>
+                                        @if (Model.vmadvert.Avtomobil.TransMission == true)
+                                        {
+                                            <span>Mexanik</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Avtomat</span>
+                                        }
+                                    </p>
+                                    <p>
+                                        <strong>Istehsal ili: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.MadeYear</span>
+                                    </p>
+                                    <p>
+                                        <strong>Yanacaq Növü: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.Oil.YanacaqAdi</span>
+                                    </p>
+                                    <p>
+                                        <strong>Motoru: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.EngineCapacity ag</span>
+                                    </p>
+                                    <p>
+                                        <strong>Rəng: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.Avtomobil.Color</span>
+                                    </p>
+                                    <p>
+                                        <strong>Sahibi: </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.User.Firstname @Model.vmadvert.User.Lastname</span>
+                                    </p>
+                                    <p>
+                                        <strong>Əlaqə : </strong>
+                                        <span class="color-text-a"> @Model.vmadvert.User.Phone</span>
+                                    </p>
+                                    <p class="content-d color-text-a">
+                                        @Model.vmadvert.Avtomobil.Context
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 section-t8">
+                <div class="title-box-d">
+                    <h3 class="title-d">Oxşar Markalar</h3>
+                </div>
+            </div>
+            <div class="row property-grid grid">
+                @foreach (var item in Model.adverts.Where(m => m.Avtomobil.Model.MarkaId == Model.vmadvert.Avtomobil.Model.MarkaId).Take(3))
+                {
+                    <div class="col-md-4">
+                        <div class="card-box-a card-shadow">
+                            <div class="img-box-a">
+                                <img src="~/Images/@item.Avtomobil.Image" alt="" class="img-a img-fluid">
+                            </div>
+
+                            <div class="card-overlay">
+                                <div class="card-overlay-a-content">
+                                    <div class="card-header-a">
+                                        <h2 class="card-title-a">
+                                            <span>
+                                                @item.Avtomobil.Model.Marka.MarkaName
+                                            </span>
+                                            <span>
+                                                @item.Avtomobil.Model.ModelName <sup style="color:gold;font-size:25px;"><i class="fas fa-crown"></i></sup>
+                                            </span>
+
+                                        </h2>
+                                    </div>
+                                    <div class="card-body-a">
+                                        <div class="price-box d-flex">
+                                            <span style="" class="price-a">Qiymət | $ @item.Avtomobil.Price</span>
+                                        </div>
+                                        <a href="@Url.Action("Detail","Car",new { id = item.Id })" class="link-a">
+                                            Daha Ətraflı
+                                            <span class="ion-ios-arrow-forward"></span>
+                                        </a>
+                                    </div>
+                                    <div class="card-footer-a">
+                                        <ul class="card-info d-flex justify-content-around">
+                                            <li>
+                                                <h4 class="card-info-title">Rəng</h4>
+                                                <span>
+                                                    @item.Avtomobil.Color
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <h4 class="card-info-title">Motor</h4>
+                                                <span>@item.Avtomobil.EngineCapacity </span>
+                                            </li>
+
+                                            <li>
+                                                <h4 class="card-info-title">İli</h4>
+                                                <span>@item.Avtomobil.MadeYear</span>
+                                            </li>
+                                            <li>
+                                                <h4 class="card-info-title">Km</h4>
+                                                <span>@item.Avtomobil.KiloMetre</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Agent Single End /-->

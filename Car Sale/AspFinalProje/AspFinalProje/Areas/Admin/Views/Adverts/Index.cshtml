@@ -1,0 +1,50 @@
+﻿@model  IEnumerable<AspFinalProje.Models.Advert>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<table class="table table-bordered table-striped ">
+    <thead class="bg-info">
+        <tr>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.UserId)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.CreatedAt)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.UpdatedAt)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.CityId)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.IsVip)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.Avtomobil.Marka)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.Avtomobil.ModelId)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">@Html.DisplayNameFor(m => m.Avtomobil.Image)</th>
+            <th style="color:black;vertical-align:middle;text-align:center">Dəyişiklik</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.User.Firstname @item.User.Lastname</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.CreatedAt</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.UpdatedAt</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.City.CityName</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.IsVip</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.Avtomobil.Model.Marka.MarkaName</td>
+            <td style="color:black;vertical-align:middle;text-align:center">@item.Avtomobil.Model.ModelName</td>
+          
+            <td style="vertical-align: middle; text-align: center;">
+                <img width="150" class="img-rounded" src="~/Images/@item.Avtomobil.Image" />
+            </td>
+            <td style="vertical-align: middle; text-align: center;">
+
+                <a title="Delete Advert" class="btn btn-danger" href="/Admin/Adverts/Delete/@item.Id">
+                    <i class="fas fa-trash"></i> Sil
+                </a>
+            </td>
+        </tr>
+        }
+
+
+    </tbody>
+</table>
